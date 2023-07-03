@@ -43,8 +43,8 @@
           <div class="col-lg-6">
             <div class="card mb-4">
               <div class="card-body">
-                <h5 class="card-title">mission statement</h5>
-                <p>"Through our budget tracking app, we strive to revolutionize personal finance by providing a simple and intuitive platform for users to manage their money effectively. Our mission is to empower individuals to take control of their finances, make informed financial decisions, and achieve their financial goals. With our app, tracking expenses, optimizing savings, and gaining financial awareness becomes effortless. We are dedicated to supporting users on their journey to financial well-being, offering a seamless and rewarding experience that promotes financial empowerment for all."</p>
+                <h5 class="card-title">Mission Statement</h5>
+                <p>Through our budget tracking app, we strive to revolutionize personal finance by providing a simple and intuitive platform for users to manage their money effectively. Our mission is to empower individuals to take control of their finances, make informed financial decisions, and achieve their financial goals. With our app, tracking expenses, optimizing savings, and gaining financial awareness becomes effortless. We are dedicated to supporting users on their journey to financial well-being, offering a seamless and rewarding experience that promotes financial empowerment for all.</p>
                 <!-- Add content for income column here -->
               </div>
             </div>
@@ -56,18 +56,51 @@
           <div class="card mb-4">
             <div class="card-body">
               <h5 class="card-title">Income</h5>
-              <!-- Add content for income column here -->
+              <form>
+                <div class="mb-3">
+                  <label for="rentInput" class="form-label">Check one:</label>
+                  <input type="number" class="form-control" id="rentInput" placeholder="Enter amount">
+                </div>
+                <div class="mb-3">
+                  <label for="powerInput" class="form-label">Check two:</label>
+                  <input type="number" class="form-control" id="powerInput" placeholder="Enter amount">
+                </div>
             </div>
           </div>
         </div>
       </div>
       <div class="row justify-content-center column-separator">
-        <div class="col-lg-6">
-          <div class="card mb-4">
-            <div class="card-body">
-              <h5 class="card-title">Bills</h5>
-              <!-- Add content for bills column here -->
-            </div>
+      <div class="col-lg-6">
+        <div class="card mb-4">
+          <div class="card-body">
+            <h5 class="card-title">Bills</h5>
+            <form>
+              <div class="mb-3">
+                <label for="rentInput" class="form-label">Rent:</label>
+                <input type="number" class="form-control" id="rentInput" placeholder="Enter amount">
+              </div>
+              <div class="mb-3">
+                <label for="powerInput" class="form-label">Power:</label>
+                <input type="number" class="form-control" id="powerInput" placeholder="Enter amount">
+              </div>
+              <div class="mb-3">
+                <label for="phoneInput" class="form-label">Phone:</label>
+                <input type="number" class="form-control" id="phoneInput" placeholder="Enter amount">
+              </div>
+              <div class="mb-3">
+                <label for="insuranceInput" class="form-label">Insurance:</label>
+                <input type="number" class="form-control" id="insuranceInput" placeholder="Enter amount">
+              </div>
+              <div class="mb-3">
+                <label for="foodInput" class="form-label">Food:</label>
+                <input type="number" class="form-control" id="foodInput" placeholder="Enter amount">
+              </div>
+              <div class="mb-3">
+                <label for="subscriptionInput" class="form-label">Subscription:</label>
+                <input type="number" class="form-control" id="subscriptionInput" placeholder="Enter amount">
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
           </div>
         </div>
       </div>
@@ -76,31 +109,56 @@
           <div class="card mb-4">
             <div class="card-body">
               <h5 class="card-title">Debt</h5>
-              <!-- Add content for debt column here -->
+              <form>
+                <div class="mb-3">
+                  <label for="rentInput" class="form-label">Student loan:</label>
+                  <input type="number" class="form-control" id="rentInput" placeholder="Enter amount">
+                </div>
+                <div class="mb-3">
+                  <label for="powerInput" class="form-label">Car loan:</label>
+                  <input type="number" class="form-control" id="powerInput" placeholder="Enter amount">
+                </div>
+
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
             </div>
           </div>
         </div>
-      </div>
-      <div class="row justify-content-center column-separator">
-        <div class="col-lg-6">
-          <div class="card mb-4">
-            <div class="card-body">
-              <h5 class="card-title">Savings / Retirement</h5>
-              <!-- Add content for savings / retirement column here -->
+        <div class="row justify-content-center column-separator">
+            <div class="col-lg-6">
+              <div class="card mb-4">
+                <div class="card-body">
+                  <h5 class="card-title">Savings & Retirement</h5>
+                  <form>
+                    <div class="mb-3">
+                      <label for="rentInput" class="form-label">Roth ira:</label>
+                      <input type="number" class="form-control" id="rentInput" placeholder="Enter amount">
+                    </div>
+                    <div class="mb-3">
+                      <label for="powerInput" class="form-label">Savings:</label>
+                      <input type="number" class="form-control" id="powerInput" placeholder="Enter amount">
+                    </div>
+                  
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-      </div>
-      <div class="row justify-content-center column-separator">
-        <div class="col-lg-6">
-          <div class="card mb-4">
-            <div class="card-body">
-              <h5 class="card-title">Fun Money</h5>
-              <!-- Add content for fun money column here -->
-            </div>
-          </div>
-        </div>
-      </div>
+            <div class="row justify-content-center column-separator">
+                <div class="col-lg-6">
+                  <div class="card mb-4">
+                    <div class="card-body">
+                      <h5 class="card-title">Fun Money</h5>
+                      <form>
+                        <div class="mb-3">
+                          <label for="rentInput" class="form-label">Shopping:</label>
+                          <input type="number" class="form-control" id="rentInput" placeholder="Enter amount">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
     </div>
   </main>
 
