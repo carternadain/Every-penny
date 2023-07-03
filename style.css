@@ -17,3 +17,6 @@
         text-decoration: none;
         margin-right: 10px;
       }
+      .column-separator {
+        margin-top: 50px; /* Adjust the value as needed */
+      }
