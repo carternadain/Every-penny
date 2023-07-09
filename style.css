@@ -31,6 +31,24 @@
         position: absolute;
         top: 0;
         left: 0;
-        width: 150px; /* Adjust the width as desired */
-        height: 150px; /* Adjust the height as desired */
+        width: 120px; /* Adjust the width as desired */
+        height: 55px; /* Adjust the height as desired */
       }
+      .card-body {
+        background-color: #ffd700;
+      }
+      
+      .form-control {
+        background-color: #fafad2;
+        color: white;
+      }
+      
+      .btn {
+        background-color: white;
+        color: black;
+      }
+      
+      .navbar-nav .nav-link {
+        color: black !important;
+      }
+      
