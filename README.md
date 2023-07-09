@@ -10,7 +10,7 @@
 
 
 # Application In Use
-![Screen Shot of the App in use](/asssets/images/filename.png)
+![Screen Shot of the App in use](/assets/images/front-page.png)
 
 
 
