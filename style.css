@@ -50,6 +50,10 @@
         font-size: 4em;
       }
       
+      #info-title-2{
+        font-family: 'Abril Fatface';
+        font-size: 2.8em;
+      }
       .small-text{
         font-weight: bold;
         font-family:sans-serif;
