@@ -1,4 +1,12 @@
     /* Add custom styles here */
+   .nav {
+     padding: 20px;
+   }
+   
+   .navbar-dark .navbar-nav .nav-link {
+    color: white;
+  }
+
     .mission-bubble {
         position: absolute;
         top: 20px;
@@ -48,7 +56,9 @@
         color: black;
       }
       
-      .navbar-nav .nav-link {
-        color: black !important;
+      .card-title {
+        text-align: center;
+        font-family: 'Mynerve', sans-serif;
       }
+     
       
