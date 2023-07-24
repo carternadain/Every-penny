@@ -8,15 +8,18 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mynerve&display=swap">
- 
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+  integrity="sha512-UVLXX5Tjep5Xa1/Wz1B5dQu9us0a/Wh6aYDj6p2yyLo/52S/gjjVtkrGelj0vvcbjPk3jxLl/OTbGUUqG7OQw=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 
 <header>
-  <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark custom-navbar">
     <div class="container">
       <a class="navbar-brand" href="#">
-        <img class="logo-img" src="assets/images/img1.png" alt="Logo">
+        <img class="logo-img" src="assets/images/Every Penny_adobe_express.svg" alt="Logo">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,24 +46,42 @@
 
   <main>
     <div class="container">
-        <div class="row justify-content-center nav">
-          <div class="col-lg-6">
-            <div class="card mb-4">
-              <div class="card-body">
-                <h5 class="card-title">Mission Statement</h5>
-                <p>Through our budget tracking app, we strive to revolutionize personal finance by providing a simple and intuitive platform for users to manage their money effectively. Our mission is to empower individuals to take control of their finances, make informed financial decisions, and achieve their financial goals. With our app, tracking expenses, optimizing savings, and gaining financial awareness becomes effortless. We are dedicated to supporting users on their journey to financial well-being, offering a seamless and rewarding experience that promotes financial empowerment for all.</p>
-                <!-- Add content for income column here -->
+      <div class="row justify-content-center">
+        <div class="col-lg-6">
+          <!-- Title Card -->
+          <div class="card mb-4 custom-card border-0">
+            <div class="card-body">
+              <h5 id="info-title" class="card-title">Budget for the life you really want.</h5>
+              <p class="small-text mt-3">Get organized, find more money, and finally feel secure in your finances.
+                Every Penny is the hands-on monthly budgeting app that can help.</p>
+              <!-- Create Account Button -->
+              <div class="d-flex justify-content-center"> <!-- Add a new div here -->
+                <a href="#" class="btn btn-primary btn-med">Create Account</a>
               </div>
             </div>
           </div>
         </div>
+        <div class="col-lg-6">
+          <!-- Image Card -->
+          <div class="card mb-4 custom-card border-0">
+            <div class="card-body">
+              <div class="clipped-image">
+                <img class="logo-img" src="assets/images/money-growing.jpg" alt="Logo">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
 
         
           <div class="container">
             <div class="row justify-content-center">
               <div class="col-lg-6">
                 <div class="card mb-4">
-                  <div class="card-body">
+                  <div class="card-body information">
                     <h5 class="card-title">Income</h5>
                     <form>
                       <div class="mb-3">
@@ -79,7 +100,7 @@
             <div class="row justify-content-center column-separator">
               <div class="col-lg-6">
                 <div class="card mb-4">
-                  <div class="card-body">
+                  <div class="card-body information">
                     <h5 class="card-title">Bills</h5>
                     <form id="billForm">
                       <div class="mb-3">
@@ -107,7 +128,7 @@
             <div class="row justify-content-center column-separator">
               <div class="col-lg-6">
                 <div class="card mb-4">
-                  <div class="card-body">
+                  <div class="card-body information">
                     <h5 class="card-title">Leftovers</h5>
                     <form>
                       <div class="mb-3">
@@ -140,6 +161,9 @@
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   <script src="script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"
+  integrity="sha512-s7Axnv2SmB5iR1aGzSlbbiS07DD6MOu0S4ElSxq0ozmmHrEeGQszDZyQya7+nu2OfaZbVt4r9CM8n5HMmhdqQ=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
 
 </html>

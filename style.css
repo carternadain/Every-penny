@@ -32,21 +32,35 @@
       .logo {
         margin-right: auto;
       }
-      .navbar {
-        position: relative;
-      }
+    
     
       .logo-img {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 120px; /* Adjust the width as desired */
-        height: 55px; /* Adjust the height as desired */
+      height: fit-content;
+      width: fit-content;
       }
-      .card-body {
+      
+
+      #info-center{
+        background-color: white;
+        padding: 20px;
+      }
+
+      #info-title{
+        font-family: 'Abril Fatface';
+        font-size: 4em;
+      }
+      
+      .small-text{
+        font-weight: bold;
+        font-family:sans-serif;
+      }
+
+
+      .information {
         background-color: #ffd700;
       }
       
+     
       .form-control {
         background-color: #fafad2;
         color: white;
@@ -67,3 +81,30 @@
         color: #000; /* Change the color to the desired one, e.g., #000 for black */
       }
 
+
+      .custom-card {
+        background-color: white;
+      }
+      .logo-img {
+        max-width: 100%;
+        max-height: 100%;
+        display: block; /* Make sure the image behaves as a block element */
+        margin: auto; /* Center the image horizontally within the container */
+        transition: opacity 0.3s ease-in-out;
+        border-radius: 5px;
+}
+
+      .logo-img:hover {
+        opacity: 1; /* Increase opacity on hover */ }
+
+      .custom-card {
+        background-color: white;
+        border: none;
+      }
+
+      .clipped-image {
+        clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+        border-radius: 8px; /* Add a slight border radius to make corners smooth */
+        overflow: hidden; /* Hide the parts of the image outside the clipping region */
+      }
+      
