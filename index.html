@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mynerve&display=swap">
-
+ 
 </head>
 
 
@@ -54,132 +54,72 @@
             </div>
           </div>
         </div>
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-lg-6">
-          <div class="card mb-4">
-            <div class="card-body">
-              <h5 class="card-title">Income</h5>
-              <form>
-                <div class="mb-3">
-                  <label for="rentInput" class="form-label">Check one:</label>
-                  <input type="number" class="form-control" id="rentInput" placeholder="Enter amount">
-                </div>
-                <div class="mb-3">
-                  <label for="powerInput" class="form-label">Check two:</label>
-                  <input type="number" class="form-control" id="powerInput" placeholder="Enter amount">
-                </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row justify-content-center column-separator">
-      <div class="col-lg-6">
-        <div class="card mb-4">
-          <div class="card-body">
-            <h5 class="card-title">Bills</h5>
-            <form>
-              <div class="mb-3">
-                <label for="rentInput" class="form-label">Rent:</label>
-                <input type="number" class="form-control" id="rentInput" placeholder="Enter amount">
-              </div>
-              <div class="mb-3">
-                <label for="powerInput" class="form-label">Power:</label>
-                <input type="number" class="form-control" id="powerInput" placeholder="Enter amount">
-              </div>
-              <div class="mb-3">
-                <label for="phoneInput" class="form-label">Phone:</label>
-                <input type="number" class="form-control" id="phoneInput" placeholder="Enter amount">
-              </div>
-              <div class="mb-3">
-                <label for="insuranceInput" class="form-label">Insurance:</label>
-                <input type="number" class="form-control" id="insuranceInput" placeholder="Enter amount">
-              </div>
-              <div class="mb-3">
-                <label for="foodInput" class="form-label">Food:</label>
-                <input type="number" class="form-control" id="foodInput" placeholder="Enter amount">
-              </div>
-              <div class="mb-3">
-                <label for="subscriptionInput" class="form-label">Subscription:</label>
-                <input type="number" class="form-control" id="subscriptionInput" placeholder="Enter amount">
-              </div>
-              <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
-          </div>
-        </div>
-      </div>
-      <div class="row justify-content-center column-separator">
-        <div class="col-lg-6">
-          <div class="card mb-4">
-            <div class="card-body">
-              <h5 class="card-title">Debt</h5>
-              <form>
-                <div class="mb-3">
-                  <label for="rentInput" class="form-label">Student loan:</label>
-                  <input type="number" class="form-control" id="rentInput" placeholder="Enter amount">
-                </div>
-                <div class="mb-3">
-                  <label for="powerInput" class="form-label">Car loan:</label>
-                  <input type="number" class="form-control" id="powerInput" placeholder="Enter amount">
-                </div>
 
-                <button type="submit" class="btn btn-primary">Submit</button>
-              </form>
-            </div>
-          </div>
-        </div>
-        <div class="row justify-content-center column-separator">
-            <div class="col-lg-6">
-              <div class="card mb-4">
-                <div class="card-body">
-                  <h5 class="card-title">Savings & Retirement</h5>
-                  <form>
-                    <div class="mb-3">
-                      <label for="rentInput" class="form-label">Roth ira:</label>
-                      <input type="number" class="form-control" id="rentInput" placeholder="Enter amount">
-                    </div>
-                    <div class="mb-3">
-                      <label for="powerInput" class="form-label">Savings:</label>
-                      <input type="number" class="form-control" id="powerInput" placeholder="Enter amount">
-                    </div>
-                  
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                  </form>
+        
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-6">
+                <div class="card mb-4">
+                  <div class="card-body">
+                    <h5 class="card-title">Income</h5>
+                    <form>
+                      <div class="mb-3">
+                        <label for="income1" class="form-label">Check one:</label>
+                        <input type="number" class="form-control" id="income1" placeholder="Enter amount">
+                      </div>
+                      <div class="mb-3">
+                        <label for="income2" class="form-label">Check two:</label>
+                        <input type="number" class="form-control" id="income2" placeholder="Enter amount">
+                      </div>
+                    </form>
+                  </div>
                 </div>
               </div>
             </div>
             <div class="row justify-content-center column-separator">
-                <div class="col-lg-6">
-                  <div class="card mb-4">
-                    <div class="card-body">
-                      <h5 class="card-title">Fun Money</h5>
-                      <form>
-                        <div class="mb-3">
-                          <label for="rentInput" class="form-label">Shopping:</label>
-                          <input type="number" class="form-control" id="rentInput" placeholder="Enter amount">
-                        </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                      </form>
-                    </div>
+              <div class="col-lg-6">
+                <div class="card mb-4">
+                  <div class="card-body">
+                    <h5 class="card-title">Bills</h5>
+                    <form id="billForm">
+                      <div class="mb-3">
+                        <label for="rentInput" class="form-label">Rent:</label>
+                        <input type="number" class="form-control" id="rentInput" placeholder="Enter amount">
+                      </div>
+                      <div class="mb-3">
+                        <label for="powerInput" class="form-label">Power:</label>
+                        <input type="number" class="form-control" id="powerInput" placeholder="Enter amount">
+                      </div>
+                      <!-- Add other bill inputs here -->
+                      <div class="text-center">
+                        <!-- <button type="button" class="btn btn-primary" id="calculateBtn">Calculate</button> -->
+                      </div>
+                    </form>
                   </div>
                 </div>
-                <div class="row justify-content-center column-separator">
-                  <div class="col-lg-6">
-                    <div class="card mb-4">
-                      <div class="card-body">
-                        <h5 class="card-title">Leftovers</h5>
-                        <form>
-                          <div class="mb-3">
-                            <label for="rentInput" class="form-label">Money left:</label>
-                         
-                          </div>
-                          <button type="submit" class="btn btn-primary">Calculate</button>
-                        </form>
+              </div>
+            </div>
+          
+            <!-- Add other form sections here -->
+            <!-- ... -->
+          
+            <!-- Add the final form section for the result -->
+            <div class="row justify-content-center column-separator">
+              <div class="col-lg-6">
+                <div class="card mb-4">
+                  <div class="card-body">
+                    <h5 class="card-title">Leftovers</h5>
+                    <form>
+                      <div class="mb-3">
+                    
+                        <div id="remainingAmount">Remaining Amount: N/A</div>
                       </div>
-                    </div>
+                    </form>
                   </div>
-
-    </div>
+                </div>
+              </div>
+            </div>
+          </div>
   </main>
 
   <footer class="footer">
@@ -199,6 +139,7 @@
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
 </body>
 
 </html>
