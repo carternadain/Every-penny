@@ -1,124 +1,142 @@
-    /* Add custom styles here */
-   .nav {
-     padding: 20px;
-   }
-   
-   .navbar-dark .navbar-nav .nav-link {
-    color: white;
-  }
-
-    .mission-bubble {
-        position: absolute;
-        top: 20px;
-        right: 20px;
-        background-color: #f8f9fa;
-        padding: 10px;
-        border-radius: 50%;
-        
-      }
-      .footer {
-        background-color: #333;
-        color: #fff;
-        padding: 20px;
-      }
-      .footer a {
-        color: #fff;
-        text-decoration: none;
-        margin-right: 10px;
-      }
-      .column-separator {
-        margin-top: 50px; /* Adjust the value as needed */
-      }
-      .logo {
-        margin-right: auto;
-      }
-    
-    
-      .logo-img {
-      height: fit-content;
-      width: fit-content;
-      }
-      
-
-      #info-center{
-        background-color: white;
-        padding: 20px;
-      }
-
-      #info-title{
-        font-family: 'Abril Fatface';
-        font-size: 4em;
-      }
-      
-      #info-title-2{
-        font-family: 'Abril Fatface';
-        font-size: 2.8em;
-      }
-      .small-text{
-        font-weight: bold;
-        font-family:sans-serif;
-      }
-
-
-      .information {
-        background-color: #2b9c41;
-      }
-      
-     
-      .form-control {
-        background-color: #fafad2;
-        color: white;
-      }
-      
-      .btn {
-        background-color: white;
-        color: black;
-      }
-      
-      .card-title {
-        text-align: center;
-        font-family: 'Mynerve', sans-serif;
-      }
-     
-      input.form-control:not(:focus),
-      label.form-label {
-        color: #000; /* Change the color to the desired one, e.g., #000 for black */
-      }
-
-
-      .custom-card {
-        background-color: white;
-      }
-      .logo-img {
-        max-width: 100%;
-        max-height: 100%;
-        display: block; /* Make sure the image behaves as a block element */
-        margin: auto; /* Center the image horizontally within the container */
-        transition: opacity 0.3s ease-in-out;
-        border-radius: 5px;
+ /* Add custom styles here */
+.nav {
+  padding: 20px;
 }
 
-      .logo-img:hover {
-        opacity: 1; /* Increase opacity on hover */ }
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
 
-      .custom-card {
-        background-color: white;
-        border: none;
-      }
+.mission-bubble {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #f8f9fa;
+  padding: 10px;
+  border-radius: 50%;
+}
 
-      .clipped-image {
-        clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
-        border-radius: 8px; /* Add a slight border radius to make corners smooth */
-        overflow: hidden; /* Hide the parts of the image outside the clipping region */
-      }
-      
-      .selling-point{
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
 
-         border-radius: 8px; /* Add a slight border radius to make corners smooth */
-         /* Hide the parts of the image outside the clipping region */
-        
-      }
-      .zoom-effect {
-        transition: transform 0.1s ease; /* Adjust the transition duration as needed */
-      }
-      
+.footer a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.column-separator {
+  margin-top: 50px;
+}
+
+.logo-img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  margin: auto;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 5px;
+}
+
+.logo-img:hover {
+  opacity: 1;
+}
+
+.information {
+  background-color: #d2d6da;
+}
+
+#info-center {
+  background-color: white;
+  padding: 20px;
+}
+
+#info-title {
+  font-family: 'Abril Fatface';
+  font-size: 4em;
+}
+
+#info-title-2 {
+  font-family: 'Abril Fatface';
+  font-size: 2.8em;
+}
+
+.small-text {
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.form-control,
+.btn {
+  background-color: white;
+  color: black;
+}
+
+.card-title {
+  text-align: center;
+  font-family: 'Mynerve', sans-serif;
+}
+
+input.form-control:not(:focus),
+label.form-label {
+  color: #000;
+}
+
+.logo {
+  color: #ced4da;
+  font-family: Mynerve;
+}
+
+/* Add this CSS to style the bill input fields */
+.bill-item-row,
+.add-item-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.bill-item-row input,
+.add-item-row input {
+  flex: 1;
+  margin-right: 10px;
+  padding: 0.375rem 0.75rem;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+}
+
+.add-item-row i {
+  font-size: 1.5rem;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+/* Add a separator between the two input fields */
+.bill-separator {
+  width: 20px;
+  height: 2px;
+  background-color: #ced4da;
+  margin: 0 10px;
+}
+
+.small-input {
+  width: 150px;
+}
+
+.bill-item-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.selling-point,
+.clipped-image {
+  border-radius: 8px;
+}
+
+.logo-img,
+.custom-card {
+  background-color: white;
+  border: none;
+}
