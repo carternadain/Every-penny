@@ -38,3 +38,8 @@ document.addEventListener('DOMContentLoaded', () => {
       remainingAmountDiv.textContent = `Remaining Amount: $${remainingAmount.toFixed(2)}`;
     }
   });
+
+
+  // Add the zoom effect on scroll
+
+
