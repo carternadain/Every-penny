@@ -2,7 +2,7 @@
 
 
 # Description 
-
+This application allows users to correctly budget so they can finally get ahead and go on that vacation they've always wanted !
 
 
 # Technology 
