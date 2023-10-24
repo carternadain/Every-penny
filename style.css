@@ -61,19 +61,23 @@
 
 #info-title-2 {
   font-family: 'Abril Fatface';
-  font-size: 2.8em;
+  font-size: 3.2em;
 }
 
 .small-text {
   font-weight: bold;
   font-family: sans-serif;
+
 }
 
-.form-control,
+
 .btn {
-  background-color: white;
-  color: black;
+  background-color: rgb(34, 139, 34);
+  color: rgb(8, 8, 8);
 }
+
+
+
 
 .card-title {
   text-align: center;
